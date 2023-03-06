@@ -1,7 +1,7 @@
 // Variables
 let title1 = 'Simon Game';
 let orderArr = [];
-let actualLevel = 19;
+let actualLevel = 0;
 let clickedCount = 0;
 let timeout = 500;
 let startLabel = "Wait for the computer!";
@@ -86,7 +86,6 @@ function orderSelect() {
     for (let count = 0; count < 20; count++) {
         orderArr.push(Math.floor(Math.random() * 4));
     }
-    console.log(orderArr);
 }
 
 // This function is used to play the sequence of the machine and the user have to replicate the pattern
