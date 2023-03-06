@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 1</title>
+        <style> @import url("styles.css"); </style>
+    </head>
+    <body>
+        <header class="container-header">
+            <section id="header">
+                <h1>Project 1 - Simon Game</h1>
+            </section>
+        </header>
+
+        <main class="flex-container-main center-content height-xlg">
+            <section class="flex-container flex-column center-content width-xlg padding-bot">
+                <h2 id="dinamicTitle">Simon Game</h2>
+
+                <section id="section-buttons"
+                    class="flex-section-buttons width-md padding-bot">
+
+                    <section class="flex-row height-md">
+                        <section id="button-one-section" class="flex-buttons width-md">
+                            <input id="button-one" type="button" value=""
+                                class="button-simon color-one" title="Red Button"
+                                onclick="countSimon(document.getElementById('button-one'))">
+                        </section>
+
+                        <section id="button-two-section" class="flex-buttons width-md">
+                            <input id="button-two" type="button" value=""
+                                class="button-simon color-two" title="Green Button"
+                                onclick="countSimon(document.getElementById('button-two'))">
+                        </section>
+                    </section>
+                    
+                    <section class="flex-row height-md">
+                        <section id="button-three-section" class="flex-buttons width-md">
+                            <input id="button-three" type="button" value=""
+                                class="button-simon color-three" title="Blue Button"
+                                onclick="countSimon(document.getElementById('button-three'))">
+                        </section>
+
+                        <section id="button-four-section" class="flex-buttons width-md">
+                            <input id="button-four" type="button" value=""
+                                class="button-simon color-four" title="Yellow Button"
+                                onclick="countSimon(document.getElementById('button-four'))">
+                        </section>
+                    </section>
+
+                    <section id="start-section center-content">
+                        <input id="button-start" type="button" value="START"
+                            class="button-start" title="Start Button" onclick="startSimon()">
+                    </section>
+
+                    <section id="count-label-section center-content">
+                        <h3 id="count-label" class="hide"></h3>
+                    </section>
+
+                    <section id="reStart-section center-content">
+                        <input id="button-reStart" type="button" value="RESTART"
+                            class="button-start hide" title="Restart Button" onclick="reStartSimon()">
+                    </section>
+
+                    <section id="newGame-section center-content">
+                        <input id="button-newGame" type="button" value="NEW GAME"
+                            class="button-start hide" title="New Game Button" onclick="newGame()">
+                    </section>
+
+                    <section id="hellMode-section" class="flex-row center-content hide">
+                        <section id="labelForHellModeSection">
+                            <label id="labelForHellMode" for="hellModeChbox" class=""></label>
+                        </section>
+
+                        <section id="hellModeInput">
+                            <section id="hellModeSection" class="">
+                                <label><input id="hellModeChbox" type="checkbox" value=""></label>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer-reverse">
+            <section>
+            </section>
+        </footer>
+        <script src="simon.js"></script>
+    </body>
+</html>
