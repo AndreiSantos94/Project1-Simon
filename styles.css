@@ -1,0 +1,144 @@
+html {
+    display: flex;
+    flex-flow: column;
+    background-color: #aec1d1;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+/* containers and flex style */
+.container-header {
+    height: auto;
+    font-size: 20px;
+    width: 90%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.flex-container-main {
+    display: flex;
+    flex-flow: row nowrap;
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    margin: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #000000;
+    box-shadow: 10px 5px 5px rgb(81, 81, 81);;
+}
+
+.flex-buttons {
+    display: flex;
+    box-sizing: content-box;
+    color: black;
+}
+
+.flex-section-buttons {
+    height: 500px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+}
+
+/* buttons styles */
+.button-start {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    border-color: #000000;
+    background-color: rgb(215, 215, 215);
+}
+
+.button-simon {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: content-box;
+    border-radius: 15px;
+    border-color: #000000;
+}
+
+.color-one {
+    background-color: red;
+}
+
+.color-two {
+    background-color: green;
+}
+
+.color-three {
+    background-color: blue;
+}
+
+.color-four {
+    background-color: yellow;
+}
+
+/* Width and Height styles */
+.width-xlg {
+    width: 100%;
+}
+
+.width-lg {
+    width: 70%;
+}
+
+.width-md {
+    width: 50%;
+}
+
+.height-md {
+    padding-bottom: 60px;
+    height: 30%;
+}
+
+.height-xlg {
+    height: 100%;
+}
+
+/* Direction flex flow */
+.flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* Alin and justify styles */
+.center-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Paddings */
+.padding-bot {
+    padding-bottom: 5px;
+}
+
+/* buttons style after start */
+.button-border-start {
+    border-radius: 15px;
+    border-color: #000000;
+    box-shadow: none;
+    box-shadow: 5px 5px 10px #ff00ea, -5px -5px 10px #ff00ea;
+}
+
+/* styles used on js */
+.hide {
+    display: none;
+}
